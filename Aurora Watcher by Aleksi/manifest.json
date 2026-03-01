@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Aurora Watcher by Aleksi",
+  "version": "1.0",
+  "description": "Opens the Aurora Watcher website upon clicking the extension icon.",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
