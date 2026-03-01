@@ -1,0 +1,11 @@
+{
+  "name": "mychromeextensition",
+  "version": "1.0.0",
+  "description": "Monorepo for Aleksi's Chrome Extensions",
+  "scripts": {
+    "build:zip": "node scripts/pack-extensions.js"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1"
+  }
+}

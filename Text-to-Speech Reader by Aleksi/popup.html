@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      width: 250px;
+      font-family: sans-serif;
+      padding: 10px;
+    }
+
+    h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      font-weight: bold;
+      background: #007bff;
+      color: white;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    #stop {
+      background: #dc3545;
+    }
+
+    #stop:hover {
+      background: #a71d2a;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    input[type=range] {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>TTS Article Reader</h3>
+  <button id="play">Read Selected Text</button>
+  <button id="stop">Stop Reading</button>
+
+  <label for="speed">Reading Speed: <span id="speedVal">1.0</span>x</label>
+  <input type="range" id="speed" min="0.5" max="2.0" step="0.1" value="1.0">
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

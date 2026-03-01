@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Text-to-Speech Reader by Aleksi",
+  "version": "1.0",
+  "description": "An accessible tool to read long articles or blog posts out loud.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tts"
+  ]
+}
